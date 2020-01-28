@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap");
+@import "./grid.scss";
+@import "./header.scss";
+@import "./carousel.scss";
+@import "./collection.scss";
+@import "./single_product.scss";
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h1 {
+  font-size: 42px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: "Quicksand";
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}

@@ -3,7 +3,7 @@ import Routes from "./Routes";
 
 function Content() {
   return (
-    <main className="container">
+    <main>
       <Routes />
     </main>
   );

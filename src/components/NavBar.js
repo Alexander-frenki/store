@@ -11,13 +11,13 @@ function NavBar() {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/iphone">Iphone</NavLink>
+          <NavLink to="/collections/iphone">Iphone</NavLink>
         </li>
         <li>
-          <NavLink to="/ipad">Ipad</NavLink>
+          <NavLink to="/collections/ipad">Ipad</NavLink>
         </li>
         <li>
-          <NavLink to="/macbook">Macbook</NavLink>
+          <NavLink to="/collections/macbook">Macbook</NavLink>
         </li>
       </ul>
     </nav>

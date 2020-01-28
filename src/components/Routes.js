@@ -1,9 +1,9 @@
 import React from "react";
-import { Route } from "react-router-dom";
+import { Route, useRouteMatch } from "react-router-dom";
 import Main from "../pages/Main";
-import Iphone from "../pages/Iphone";
-import Ipad from "../pages/Ipad";
-import Macbook from "../pages/Macbook";
+import Cart from "../pages/Cart";
+import Collection from "../pages/Collection";
+import Product from "../pages/Product";
 
 function Routes() {
   return (
@@ -11,16 +11,36 @@ function Routes() {
       <Route path="/" exact>
         <Main />
       </Route>
-      <Route path="/iphone">
-        <Iphone />
+      <Route path="/cart">
+        <Cart />
       </Route>
-      <Route path="/ipad">
-        <Ipad />
+      <Route path="/collections">
+        <Collections />
       </Route>
-      <Route path="/macbook">
-        <Macbook />
+      <Route path="/products">
+        <Products />
       </Route>
     </>
+  );
+}
+
+function Collections() {
+  let { path } = useRouteMatch();
+
+  return (
+    <Route path={`${path}/:collectionID`}>
+      <Collection />
+    </Route>
+  );
+}
+
+function Products() {
+  let { path } = useRouteMatch();
+
+  return (
+    <Route path={`${path}/:productVariantID`}>
+      <Product />
+    </Route>
   );
 }
 

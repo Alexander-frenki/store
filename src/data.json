@@ -1,0 +1,314 @@
+{
+  "collections": [
+    {
+      "name": "Iphone",
+      "handle": "iphone",
+      "image": "/iphone.jpg"
+    },
+    {
+      "name": "Ipad",
+      "handle": "ipad",
+      "image": "/ipad.jpg"
+    },
+    {
+      "name": "Macbook",
+      "handle": "macbook",
+      "image": "/macbook.jpg"
+    }
+  ],
+  "iphone": {
+    "name": "Iphone",
+    "image": "/iphone.jpg",
+    "products": [
+      {
+        "name": "Iphone 11 Pro",
+        "price": "999",
+        "colors": ["Space Gray", "Silver", "Midnight Green", "Gold"],
+        "images": [
+          "/iphone-11-pro-space-gray.png",
+          "/iphone-11-pro-silver.png",
+          "/iphone-11-pro-midnight-green.png",
+          "/iphone-11-pro-gold.png"
+        ],
+        "capacity": ["64", "256", "512"],
+        "variants": [
+          {
+            "id": 10001,
+            "title": "Iphone 11 Pro / Space Gray / 64",
+            "color": "Space Gray",
+            "capacity": "64",
+            "price": "999",
+            "image": "/iphone-11-pro-space-gray.png"
+          },
+          {
+            "id": 10002,
+            "title": "Iphone 11 Pro / Silver / 64",
+            "color": "Silver",
+            "capacity": "64",
+            "price": "999",
+            "image": "/iphone-11-pro-silver.png"
+          },
+          {
+            "id": 10003,
+            "title": "Iphone 11 Pro / Midnight Green / 64",
+            "color": "Midnight Green",
+            "capacity": "64",
+            "price": "999",
+            "image": "/iphone-11-pro-midnight-green.png"
+          },
+          {
+            "id": 10004,
+            "title": "Iphone 11 Pro / Gold / 64",
+            "color": "Gold",
+            "capacity": "64",
+            "price": "999",
+            "image": "/iphone-11-pro-gold.png"
+          },
+          {
+            "id": 10005,
+            "title": "Iphone 11 Pro / Space Gray / 256",
+            "color": "Space Gray",
+            "capacity": "256",
+            "price": "1149",
+            "image": "/iphone-11-pro-space-gray.png"
+          },
+          {
+            "id": 10006,
+            "title": "Iphone 11 Pro / Silver / 256",
+            "color": "Silver",
+            "capacity": "256",
+            "price": "1149",
+            "image": "/iphone-11-pro-silver.png"
+          },
+          {
+            "id": 10007,
+            "title": "Iphone 11 Pro / Midnight Green / 256",
+            "color": "Midnight Green",
+            "capacity": "256",
+            "price": "1149",
+            "image": "/iphone-11-pro-midnight-green.png"
+          },
+          {
+            "id": 10008,
+            "title": "Iphone 11 Pro / Gold / 256",
+            "color": "Gold",
+            "capacity": "256",
+            "price": "1149",
+            "image": "/iphone-11-pro-gold.png"
+          },
+          {
+            "id": 10009,
+            "title": "Iphone 11 Pro / Space Gray / 512",
+            "color": "Space Gray",
+            "capacity": "512",
+            "price": "1349",
+            "image": "/iphone-11-pro-space-gray.png"
+          },
+          {
+            "id": 10010,
+            "title": "Iphone 11 Pro / Silver / 512",
+            "color": "Silver",
+            "capacity": "512",
+            "price": "1349",
+            "image": "/iphone-11-pro-silver.png"
+          },
+          {
+            "id": 10011,
+            "title": "Iphone 11 Pro / Midnight Green / 512",
+            "color": "Midnight Green",
+            "capacity": "512",
+            "price": "1349",
+            "image": "/iphone-11-pro-midnight-green.png"
+          },
+          {
+            "id": 10012,
+            "title": "Iphone 11 Pro / Gold / 512",
+            "color": "Gold",
+            "capacity": "512",
+            "price": "1349",
+            "image": "/iphone-11-pro-gold.png"
+          }
+        ]
+      },
+      {
+        "name": "Iphone 11",
+        "price": "699",
+        "colors": ["White", "Black", "Green", "Yellow", "Purple", "Red"],
+        "capacity": ["64", "128", "256"],
+        "images": [
+          "/iphone11-white.png",
+          "/iphone11-black.png",
+          "/iphone11-green.png",
+          "/iphone11-yellow.png",
+          "/iphone11-purple.png",
+          "/iphone11-red.png"
+        ],
+        "variants": [
+          {
+            "id": 10013,
+            "title": "Iphone 11 / White / 64",
+            "color": "White",
+            "capacity": "64",
+            "price": "699",
+            "image": "/iphone11-white.png"
+          },
+          {
+            "id": 10014,
+            "title": "Iphone 11 / Black / 64",
+            "color": "Black",
+            "capacity": "64",
+            "price": "699",
+            "image": "/iphone11-black.png"
+          },
+          {
+            "id": 10015,
+            "title": "Iphone 11 / Green / 64",
+            "color": "Green",
+            "capacity": "64",
+            "price": "699",
+            "image": "/iphone11-green.png"
+          },
+          {
+            "id": 10016,
+            "title": "Iphone 11 / Yellow / 64",
+            "color": "Yellow",
+            "capacity": "64",
+            "price": "699",
+            "image": "/iphone11-yellow.png"
+          },
+          {
+            "id": 10017,
+            "title": "Iphone 11 / Purple / 64",
+            "color": "Purple",
+            "capacity": "64",
+            "price": "699",
+            "image": "/iphone11-purple.png"
+          },
+          {
+            "id": 10018,
+            "title": "Iphone 11 / Red / 64",
+            "color": "Red",
+            "capacity": "64",
+            "price": "699",
+            "image": "/iphone11-red.png"
+          },
+          {
+            "id": 10019,
+            "title": "Iphone 11 / White / 128",
+            "color": "White",
+            "capacity": "128",
+            "price": "749",
+            "image": "/iphone11-white.png"
+          },
+          {
+            "id": 10020,
+            "title": "Iphone 11 / Black / 128",
+            "color": "Black",
+            "capacity": "128",
+            "price": "749",
+            "image": "/iphone11-black.png"
+          },
+          {
+            "id": 10021,
+            "title": "Iphone 11 / Green / 128",
+            "color": "Green",
+            "capacity": "128",
+            "price": "749",
+            "image": "/iphone11-green.png"
+          },
+          {
+            "id": 10022,
+            "title": "Iphone 11 / Yellow / 128",
+            "color": "Yellow",
+            "capacity": "128",
+            "price": "749",
+            "image": "/iphone11-yellow.png"
+          },
+          {
+            "id": 10023,
+            "title": "Iphone 11 / Purple / 128",
+            "color": "Purple",
+            "capacity": "128",
+            "price": "749",
+            "image": "/iphone11-purple.png"
+          },
+          {
+            "id": 10024,
+            "title": "Iphone 11 / Red / 128",
+            "color": "Red",
+            "capacity": "128",
+            "price": "749",
+            "image": "/iphone11-red.png"
+          },
+          {
+            "id": 10025,
+            "title": "Iphone 11 / White / 256",
+            "color": "White",
+            "capacity": "256",
+            "price": "849",
+            "image": "/iphone11-white.png"
+          },
+          {
+            "id": 10026,
+            "title": "Iphone 11 / Black / 256",
+            "color": "Black",
+            "capacity": "256",
+            "price": "849",
+            "image": "/iphone11-black.png"
+          },
+          {
+            "id": 10027,
+            "title": "Iphone 11 / Green / 256",
+            "color": "Green",
+            "capacity": "256",
+            "price": "849",
+            "image": "/iphone11-green.png"
+          },
+          {
+            "id": 10028,
+            "title": "Iphone 11 / Yellow / 256",
+            "color": "Yellow",
+            "capacity": "256",
+            "price": "849",
+            "image": "/iphone11-yellow.png"
+          },
+          {
+            "id": 10029,
+            "title": "Iphone 11 / Purple / 256",
+            "color": "Purple",
+            "capacity": "256",
+            "price": "849",
+            "image": "/iphone11-purple.png"
+          },
+          {
+            "id": 10030,
+            "title": "Iphone 11 / Red / 256",
+            "color": "Red",
+            "capacity": "256",
+            "price": "849",
+            "image": "/iphone11-red.png"
+          }
+        ]
+      }
+    ]
+  },
+  "ipad": {
+    "name": "Ipad",
+    "image": "/ipad.jpg",
+    "products": [
+      { "name": "Ipad Pro" },
+      { "name": "Ipad Air" },
+      { "name": "Ipad" },
+      { "name": "Ipad Mini" }
+    ]
+  },
+  "macbook": {
+    "name": "Macbook",
+    "image": "/macbook.jpg",
+    "products": [
+      { "name": "Macbook Air" },
+      { "name": "Macbook Pro 13" },
+      { "name": "Macbook Pro 16" }
+    ]
+  }
+}

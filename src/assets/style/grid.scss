@@ -1,0 +1,27 @@
+.grid_container {
+  max-width: 1300px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.grid_full_container {
+  max-width: 100%;
+  width: 100%;
+}
+.grid_row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  align-items: center;
+}
+@for $i from 1 to 13 {
+  .grid_desktop_#{$i} {
+    flex: 0 0 $i * (100 / 12) + unquote("%");
+    max-width: $i * (100 / 12) + unquote("%");
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+}

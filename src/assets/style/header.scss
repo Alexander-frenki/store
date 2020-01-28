@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+  nav {
+    ul {
+      display: flex;
+      justify-content: space-between;
+    }
+    li {
+      font-weight: 500;
+      transition: all 0.35s;
+      &:hover {
+        color: #ff0080;
+      }
+    }
+  }
+  .cart a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
