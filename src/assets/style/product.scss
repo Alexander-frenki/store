@@ -1,0 +1,13 @@
+.product {
+  &_images {
+    img {
+      width: 100%;
+    }
+  }
+  &_colors {
+    justify-content: flex-start;
+  }
+  &_capacity {
+    justify-content: flex-start;
+  }
+}

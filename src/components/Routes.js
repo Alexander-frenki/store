@@ -38,7 +38,7 @@ function Products() {
   let { path } = useRouteMatch();
 
   return (
-    <Route path={`${path}/:productVariantID`}>
+    <Route path={`${path}/:productGroup/:productHandle`}>
       <Product />
     </Route>
   );

@@ -4,6 +4,8 @@
 @import "./carousel.scss";
 @import "./collection.scss";
 @import "./single_product.scss";
+@import "./product.scss";
+@import "./cart.scss";
 
 ol,
 ul {
@@ -17,6 +19,15 @@ a {
 h1 {
   font-size: 42px;
 }
+input[type="radio"] {
+  position: absolute;
+  width: 0;
+  opacity: 0;
+}
+label {
+  cursor: pointer;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -29,4 +40,9 @@ body {
   font-size: 16px;
   font-weight: 400;
   color: #000;
+}
+
+.page_title {
+  margin: 50px 0;
+  text-align: center;
 }
