@@ -85,7 +85,7 @@ function ProductSingle({ product }) {
         <Link
           to={`/products/${collectionID}/${product.handle}?variant=${currentVariant.id}`}
         >
-          BUY
+          <button className="btn">BUY</button>
         </Link>
       </div>
     </div>

@@ -101,7 +101,9 @@ function Product({ content, addToCart }) {
                   </label>
                 ))}
               </div>
-              <button type="submit">SUBMIT</button>
+              <button type="submit" className="btn">
+                SUBMIT
+              </button>
             </form>
           </div>
         </div>

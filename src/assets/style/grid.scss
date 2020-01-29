@@ -15,7 +15,6 @@
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-  align-items: center;
 }
 @for $i from 1 to 13 {
   .grid_desktop_#{$i} {
