@@ -33,6 +33,13 @@
           "/iphone-11-pro-gold.png"
         ],
         "capacity": ["64", "256", "512"],
+        "description": {
+          "Display": "Super Retina XDR display <br/>5.8‑inch (diagonal) all‑screen OLED Multi‑Touch display <br/>HDR display <br/>2436‑by‑1125-pixel resolution at 458 ppi <br/>2,000,000:1 contrast ratio (typical)",
+          "Camera": "Triple 12MP Ultra Wide, Wide, and Telephoto cameras <br/>Ultra Wide: ƒ/2.4 aperture and 120° field of view <br/>Wide: ƒ/1.8 aperture <br/>Telephoto: ƒ/2.0 aperture <br/>2x optical zoom in, 2x optical zoom out; digital zoom up to 10x <br/>Portrait mode with advanced bokeh and Depth Control <br/>Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High-Key Mono) <br/>Dual optical image stabilization (Wide and Telephoto) <br/>Five‑element lens (Ultra Wide); six-element lens (Wide and Telephoto) <br/>Brighter True Tone flash with Slow Sync <br/>Panorama (up to 63MP) <br/>Sapphire crystal lens cover <br/>100% Focus Pixels (Wide) <br/>Night mode <br/>Auto Adjustments <br/>Next‑generation Smart HDR for photos <br/>Wide color capture for photos and Live Photos <br/>Advanced red‑eye correction <br/>Photo geotagging <br/>Auto image stabilization <br/>Burst mode <br/>Image formats captured: HEIF and JPEG",
+          "Video": "4K video recording at 24 fps, 30 fps, or 60 fps <br/>1080p HD video recording at 30 fps or 60 fps <br/>720p HD video recording at 30 fps <br/>Extended dynamic range for video up to 60 fps <br/>Optical image stabilization for video (Wide and Telephoto) <br/>2x optical zoom in, 2x optical zoom out; digital zoom up to 6x <br/>Audio zoom <br/>Brighter True Tone flash <br/>QuıckTake video with subject tracking <br/>Slo‑mo video support for 1080p at 120 fps or 240 fps <br/>Time‑lapse video with stabilization <br/>Cinematic video stabilization (4K, 1080p, and 720p) <br/>Continuous autofocus video <br/>Take 8MP still photos while recording 4K video <br/>Playback zoom <br/>Video formats recorded: HEVC and H.264 <br/>Stereo recording",
+          "Battery": "Lasts up to 4 hours longer than iPhone XS <br/><strong>Video playback:</strong> <br/>Up to 18 hours <br/><strong>Video playback (streamed):</strong> <br/>Up to 11 hours <br/><strong>Audio playback:</strong> <br/>Up to 65 hours <br/>18W adapter included <br/><strong>Both models:</strong> <br/>Built-in rechargeable lithium-ion battery <br/>Wireless charging (works with Qi chargers10) <br/>Charging via USB to computer system or power adapter <br/>Fast-charge capable: <br/>Up to 50% charge in around 30 minutes with 18W adapter or higher11",
+          "Sensors": "Face ID <br/>Barometer <br/>Three‑axis gyro <br/>Accelerometer <br/>Proximity sensor <br/>Ambient light sensor"
+        },
         "variants": {
           "10001": {
             "id": 10001,
@@ -139,6 +146,13 @@
         "price": "699",
         "colors": ["White", "Black", "Green", "Yellow", "Purple", "Red"],
         "capacity": ["64", "128", "256"],
+        "description": {
+          "Display": "Liquid Retina HD display <br/>6.1‑inch (diagonal) all-screen LCD Multi-Touch display with IPS technology <br/>1792‑by‑828‑pixel resolution at 326 ppi <br/>1400:1 contrast ratio (typical) <br/>True Tone display <br/>Wide color display (P3) <br/>Haptic Touch <br/>625 nits max brightness (typical) <br/>Fingerprint‑resistant oleophobic coating <br/>Support for display of multiple languages and characters simultaneously",
+          "Camera": "Dual 12MP Ultra Wide and Wide cameras <br/>Ultra Wide: ƒ/2.4 aperture and 120° field of view <br/>Wide: ƒ/1.8 aperture <br/>2x optical zoom out; digital zoom up to 5x <br/>Portrait mode with advanced bokeh and Depth Control <br/>Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High-Key Mono) <br/>Optical image stabilization (Wide) <br/>Five‑element lens (Ultra Wide); six‑element lens (Wide) <br/>Brighter True Tone flash with Slow Sync <br/>Panorama (up to 63MP) <br/>Sapphire crystal lens cover <br/>100% Focus Pixels (Wide) <br/>Night mode <br/>Auto Adjustments <br/>Next-generation Smart HDR for photos <br/>Wide color capture for photos and Live Photos <br/>Advanced red‑eye correction <br/>Auto image stabilization <br/>Burst mode <br/>Photo geotagging <br/>Image formats captured: HEIF and JPEG",
+          "Video": "4K video recording at 24 fps, 30 fps, or 60 fps <br/>1080p HD video recording at 30 fps or 60 fps <br/>720p HD video recording at 30 fps <br/>Extended dynamic range for video up to 60 fps <br/>Optical image stabilization for video (Wide) <br/>2x optical zoom out; digital zoom up to 3x <br/>Audio zoom <br/>Brighter True Tone flash <br/>QuickTake video with subject tracking <br/>Slo‑mo video support for 1080p at 120 fps or 240 fps <br/>Time‑lapse video with stabilization <br/>Cinematic video stabilization (4K, 1080p, and 720p) <br/>Continuous autofocus video <br/>Take 8MP still photos while recording 4K video <br/>Playback zoom <br/>Video formats recorded: HEVC and H.264 <br/>Stereo recording",
+          "Battery": "Lasts up to 1 hour longer than iPhone XR <br/><strong>Video playback:</strong> <br/>Up to 17 hours <br/><strong>Video playback (streamed):</strong> <br/>Up to 10 hours <br/><strong>Audio playback:</strong> <br/>Up to 65 hours <br/><strong>Fast‑charge capable:</strong> <br/>Up to 50% charge in 30 minutes10 with 18W adapter or higher (sold separately) <br/>Built-in rechargeable lithium‑ion battery <br/>Wireless charging (works with Qi chargers11) <br/>Charging via USB to computer system or power adapter",
+          "Sensors": "Face ID <br/>Barometer <br/>Three‑axis gyro <br/>Accelerometer <br/>Proximity sensor <br/>Ambient light sensor"
+        },
         "images": [
           "/iphone11-white.png",
           "/iphone11-black.png",
@@ -291,6 +305,127 @@
             "capacity": "256",
             "price": "849",
             "image": "/iphone11-red.png"
+          }
+        }
+      },
+      "iphone-xr": {
+        "name": "Iphone Xr",
+        "group": "iphone",
+        "handle": "iphone-xr",
+        "price": "599",
+        "colors": ["White", "Black", "Blue", "Yellow", "Coral", "Red"],
+        "capacity": ["64", "128"],
+        "description": {
+          "Display": "Liquid Retina HD display <br/>6.1-inch (diagonal) all-screen LCD Multi-Touch display with IPS technology <br/>1792-by-828-pixel resolution at 326 ppi <br/>1400:1 contrast ratio (typical) <br/>True Tone display <br/>Wide color display (P3) <br/>Haptic Touch <br/>625 nits max brightness (typical) <br/>Fingerprint-resistant oleophobic coating <br/>Support for display of multiple languages and characters simultaneously",
+          "Camera": "12MP Wide camera <br/>ƒ/1.8 aperture <br/>Digital zoom up to 5x <br/>Portrait mode with advanced bokeh and Depth Control <br/>Portrait Lighting with three effects (Natural, Studio, Contour) <br/>Optical image stabilization <br/>Six‑element lens <br/>LED True Tone flash with Slow Sync <br/>Panorama (up to 63MP) <br/>Autofocus with Focus Pixels <br/>Smart HDR for photos <br/>Wide color capture for photos and Live Photos <br/>Advanced red-eye correction <br/>Auto image stabilization <br/>Burst mode <br/>Photo geotagging <br/>Image formats captured: HEIF and JPEG",
+          "Video": "4K video recording at 24 fps, 30 fps, or 60 fps <br/>1080p HD video recording at 30 fps or 60 fps <br>720p HD video recording at 30 fps <br/>Extended dynamic range for video up to 30 fps <br/>Optical image stabilization for video <br/>Digital zoom up to 3x <br/>LED True Tone flash <br/>Slo‑mo video support for 1080p at 120 fps or 240 fps <br/>Time‑lapse video with stabilization <br/>Cinematic video stabilization (1080p and 720p) <br/>Continuous autofocus video <br/>Take 8MP still photos while recording 4K video <br/>Playback zoom <br/>Video formats recorded: HEVC and H.264 <br/>Stereo recording",
+          "Battery": "Lasts up to 1.5 hours longer than iPhone 8 Plus <br/><strong>Talk time (wireless):</strong> <br/>Up to 25 hours <br/><strong>Internet use:</strong> <br/>Up to 15 hours <br/><strong>Video playback (wireless):</strong> <br/>Up to 16 hours <br/><strong>Audio playback (wireless):</strong> <br/>Up to 65 hours <br/><strong>Fast‑charge capable:</strong> <br/>Up to 50% charge in 30 minutes9 <br/>with 18W adapter or higher (sold separately) <br/>Built-in rechargeable lithium‑ion battery <br/>Wireless charging (works with Qi chargers10) <br/>Charging via USB to computer system or power adapter",
+          "Sensors": "Face ID <br/>Barometer <br/>Three‑axis gyro <br/>Accelerometer <br/>Proximity sensor <br/>Ambient light sensor"
+        },
+        "images": [
+          "/iphone-xr-white.png",
+          "/iphone-xr-black.png",
+          "/iphone-xr-blue.png",
+          "/iphone-xr-yellow.png",
+          "/iphone-xr-coral.png",
+          "/iphone-xr-red.png"
+        ],
+        "variants": {
+          "10031": {
+            "id": 10031,
+            "name": "Iphone Xr",
+            "color": "White",
+            "capacity": "64",
+            "price": "599",
+            "image": "/iphone-xr-white.png"
+          },
+          "10032": {
+            "id": 10032,
+            "name": "Iphone Xr",
+            "color": "Black",
+            "capacity": "64",
+            "price": "599",
+            "image": "/iphone-xr-black.png"
+          },
+          "10033": {
+            "id": 10033,
+            "name": "Iphone Xr",
+            "color": "Blue",
+            "capacity": "64",
+            "price": "599",
+            "image": "/iphone-xr-blue.png"
+          },
+          "10034": {
+            "id": 10034,
+            "name": "Iphone Xr",
+            "color": "Yellow",
+            "capacity": "64",
+            "price": "599",
+            "image": "/iphone-xr-yellow.png"
+          },
+          "10035": {
+            "id": 10035,
+            "name": "Iphone Xr",
+            "color": "Coral",
+            "capacity": "64",
+            "price": "599",
+            "image": "/iphone-xr-coral.png"
+          },
+          "10036": {
+            "id": 10036,
+            "name": "Iphone Xr",
+            "color": "Red",
+            "capacity": "64",
+            "price": "599",
+            "image": "/iphone-xr-red.png"
+          },
+          "10037": {
+            "id": 10037,
+            "name": "Iphone Xr",
+            "color": "White",
+            "capacity": "128",
+            "price": "649",
+            "image": "/iphone-xr-white.png"
+          },
+          "10038": {
+            "id": 10038,
+            "name": "Iphone Xr",
+            "color": "Black",
+            "capacity": "128",
+            "price": "649",
+            "image": "/iphone-xr-black.png"
+          },
+          "10039": {
+            "id": 10039,
+            "name": "Iphone Xr",
+            "color": "Blue",
+            "capacity": "128",
+            "price": "649",
+            "image": "/iphone-xr-blue.png"
+          },
+          "10040": {
+            "id": 10040,
+            "name": "Iphone Xr",
+            "color": "Yellow",
+            "capacity": "128",
+            "price": "649",
+            "image": "/iphone-xr-yellow.png"
+          },
+          "10041": {
+            "id": 10041,
+            "name": "Iphone Xr",
+            "color": "Coral",
+            "capacity": "128",
+            "price": "649",
+            "image": "/iphone-xr-coral.png"
+          },
+          "10042": {
+            "id": 10042,
+            "name": "Iphone Xr",
+            "color": "Red",
+            "capacity": "128",
+            "price": "649",
+            "image": "/iphone-xr-red.png"
           }
         }
       }
@@ -554,5 +689,101 @@
     "capacity": "256",
     "price": "849",
     "image": "/iphone11-red.png"
+  },
+  "10031": {
+    "id": 10031,
+    "name": "Iphone Xr",
+    "color": "White",
+    "capacity": "64",
+    "price": "599",
+    "image": "/iphone-xr-white.png"
+  },
+  "10032": {
+    "id": 10032,
+    "name": "Iphone Xr",
+    "color": "Black",
+    "capacity": "64",
+    "price": "599",
+    "image": "/iphone-xr-black.png"
+  },
+  "10033": {
+    "id": 10033,
+    "name": "Iphone Xr",
+    "color": "Blue",
+    "capacity": "64",
+    "price": "599",
+    "image": "/iphone-xr-blue.png"
+  },
+  "10034": {
+    "id": 10034,
+    "name": "Iphone Xr",
+    "color": "Yellow",
+    "capacity": "64",
+    "price": "599",
+    "image": "/iphone-xr-yellow.png"
+  },
+  "10035": {
+    "id": 10035,
+    "name": "Iphone Xr",
+    "color": "Coral",
+    "capacity": "64",
+    "price": "599",
+    "image": "/iphone-xr-coral.png"
+  },
+  "10036": {
+    "id": 10036,
+    "name": "Iphone Xr",
+    "color": "Red",
+    "capacity": "64",
+    "price": "599",
+    "image": "/iphone-xr-red.png"
+  },
+  "10037": {
+    "id": 10037,
+    "name": "Iphone Xr",
+    "color": "White",
+    "capacity": "128",
+    "price": "649",
+    "image": "/iphone-xr-white.png"
+  },
+  "10038": {
+    "id": 10038,
+    "name": "Iphone Xr",
+    "color": "Black",
+    "capacity": "128",
+    "price": "649",
+    "image": "/iphone-xr-black.png"
+  },
+  "10039": {
+    "id": 10039,
+    "name": "Iphone Xr",
+    "color": "Blue",
+    "capacity": "128",
+    "price": "649",
+    "image": "/iphone-xr-blue.png"
+  },
+  "10040": {
+    "id": 10040,
+    "name": "Iphone Xr",
+    "color": "Yellow",
+    "capacity": "128",
+    "price": "649",
+    "image": "/iphone-xr-yellow.png"
+  },
+  "10041": {
+    "id": 10041,
+    "name": "Iphone Xr",
+    "color": "Coral",
+    "capacity": "128",
+    "price": "649",
+    "image": "/iphone-xr-coral.png"
+  },
+  "10042": {
+    "id": 10042,
+    "name": "Iphone Xr",
+    "color": "Red",
+    "capacity": "128",
+    "price": "649",
+    "image": "/iphone-xr-red.png"
   }
 }
