@@ -428,6 +428,76 @@
             "image": "/iphone-xr-red.png"
           }
         }
+      },
+      "iphone-8": {
+        "name": "Iphone 8",
+        "group": "iphone",
+        "handle": "iphone-8",
+        "price": "449",
+        "colors": ["Space Gray", "Silver", "Gold"],
+        "capacity": ["64", "128"],
+        "description": {
+          "Display": "True Tone display <br/>Wide color display (P3) <br/>3D Touch <br/>625 nits max brightness (typical) <br/>Dual-domain pixels for wide viewing angles <br/>Fingerprint-resistant oleophobic coating <br/>Support for display of multiple languages and characters simultaneously <br/>Display Zoom <br/>Reachability <br/>Retina HD display <br/>4.7-inch (diagonal) widescreen LCD Multi-Touch display with IPS technology <br/>1334-by-750-pixel resolution at 326 ppi <br/>1400:1 contrast ratio (typical)",
+          "Camera": "Single 12MP Wide camera <br/>Wide: ƒ/1.8 aperture <br/>Digital zoom up to 5x <br/> Optical image stabilization <br/>Six‑element lens <br/>LED True Tone flash with Slow Sync <br/>Panorama (up to 63MP) <br/>Live Photos with stabilization <br/>Wide color capture for photos and Live Photos <br/>Auto HDR for photos <br/>Auto image stabilization <br/>Burst mode <br/>Photo geotagging <br/>Image formats captured: HEIF and JPEG",
+          "Video": "4K video recording at 24 fps, 30 fps, or 60 fps <br/>1080p HD video recording at 30 fps or 60 fps <br/>720p HD video recording at 30 fps <br/>Optical image stabilization for video <br/>2x optical zoom in; digital zoom up to 6x (iPhone 8 Plus only) <br/>LED True Tone flash <br/>Slo-mo video support for 1080p at 120 fps or 240 fps <br/>Time‑lapse video with stabilization <br/>Cinematic video stabilization (1080p and 720p) <br/>Continuous autofocus video <br/>Take 8MP still photos while recording 4K video <br/>Playback zoom <br/>Video formats recorded: HEVC and H.264",
+          "Battery": "Lasts about the same as iPhone 7 <br/><strong>Talk time (wireless):</strong> <br/>Up to 14 hours <br/><strong>Internet use:</strong> <br/>Up to 12 hours <br/><strong>Video playback (wireless):</strong> <br/>Up to 13 hours <br/><strong>Audio playback (wireless):</strong> <br/>Up to 40 hours <br/><strong>Fast-charge capable: </strong><br/>Up to 50% charge in 30 minutes9 <br/>with 18W adapter or higher (sold separately) <br>Built-in rechargeable lithium-ion battery <br/>Wireless charging (works with Qi chargers10) <br/>Charging via USB to computer system or power adapter",
+          "Sensors": "Touch ID fingerprint sensor <br/>Barometer <br/>Three-axis gyro <br/>Accelerometer <br/>Proximity sensor <br/>Ambient light sensor"
+        },
+        "images": [
+          "/iphone8-spgray.png",
+          "/iphone8-silver.png",
+          "/iphone8-gold.png"
+        ],
+        "variants": {
+          "10043": {
+            "id": 10043,
+            "name": "Iphone 8",
+            "color": "Space Gray",
+            "capacity": "64",
+            "price": "449",
+            "image": "/iphone8-spgray.png"
+          },
+          "10044": {
+            "id": 10044,
+            "name": "Iphone 8",
+            "color": "Silver",
+            "capacity": "64",
+            "price": "449",
+            "image": "/iphone8-silver.png"
+          },
+          "10045": {
+            "id": 10045,
+            "name": "Iphone 8",
+            "color": "Gold",
+            "capacity": "64",
+            "price": "449",
+            "image": "/iphone8-gold.png"
+          },
+          "10046": {
+            "id": 10046,
+            "name": "Iphone 8",
+            "color": "Space Gray",
+            "capacity": "128",
+            "price": "499",
+            "image": "/iphone8-spgray.png"
+          },
+          "10047": {
+            "id": 10047,
+            "name": "Iphone 8",
+            "color": "Silver",
+            "capacity": "128",
+            "price": "499",
+            "image": "/iphone8-silver.png"
+          },
+          "10048": {
+            "id": 10048,
+            "name": "Iphone 8",
+            "color": "Gold",
+            "capacity": "128",
+            "price": "499",
+            "image": "/iphone8-gold.png"
+          }
+        }
       }
     }
   },
@@ -785,5 +855,53 @@
     "capacity": "128",
     "price": "649",
     "image": "/iphone-xr-red.png"
+  },
+  "10043": {
+    "id": 10043,
+    "name": "Iphone 8",
+    "color": "Space Gray",
+    "capacity": "64",
+    "price": "449",
+    "image": "/iphone8-spgray.png"
+  },
+  "10044": {
+    "id": 10044,
+    "name": "Iphone 8",
+    "color": "Silver",
+    "capacity": "64",
+    "price": "449",
+    "image": "/iphone8-silver.png"
+  },
+  "10045": {
+    "id": 10045,
+    "name": "Iphone 8",
+    "color": "Gold",
+    "capacity": "64",
+    "price": "449",
+    "image": "/iphone8-gold.png"
+  },
+  "10046": {
+    "id": 10046,
+    "name": "Iphone 8",
+    "color": "Space Gray",
+    "capacity": "128",
+    "price": "499",
+    "image": "/iphone8-spgray.png"
+  },
+  "10047": {
+    "id": 10047,
+    "name": "Iphone 8",
+    "color": "Silver",
+    "capacity": "128",
+    "price": "499",
+    "image": "/iphone8-silver.png"
+  },
+  "10048": {
+    "id": 10048,
+    "name": "Iphone 8",
+    "color": "Gold",
+    "capacity": "128",
+    "price": "499",
+    "image": "/iphone8-gold.png"
   }
 }
