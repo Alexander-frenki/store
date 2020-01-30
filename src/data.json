@@ -504,12 +504,280 @@
   "ipad": {
     "name": "Ipad",
     "image": "/ipad.jpg",
-    "products": [
-      { "name": "Ipad Pro" },
-      { "name": "Ipad Air" },
-      { "name": "Ipad" },
-      { "name": "Ipad Mini" }
-    ]
+    "products": {
+      "ipad-pro": {
+        "name": "Ipad Pro",
+        "group": "ipad",
+        "handle": "ipad-pro",
+        "price": "799",
+        "colors": ["Space Gray", "Silver"],
+        "capacity": ["64", "256", "512"],
+        "description": {
+          "Display": "Liquid Retina display <br/>11-inch (diagonal) LED-backlit Multi‑Touch display with IPS technology <br/>2388-by-1668-pixel resolution at 264 pixels per inch (ppi) <br/>ProMotion technology <br/>Wide color display (P3) <br/>True Tone display <br/>Fingerprint-resistant oleophobic coating <br/>Fully laminated display <br/>Antireflective coating <br/>1.8% reflectivity <br/>600 nits brightness",
+          "Camera": "12-megapixel camera <br/>ƒ/1.8 aperture <br/>Digital zoom up to 5x <br/>Five‑element lens <br/>Quad-LED True Tone flash <br/>Panorama (up to 63 megapixels) <br/>Sapphire crystal lens cover <br/>Backside illumination sensor <br/>Hybrid IR filter <br/>Autofocus with Focus Pixels <br/>Tap to focus with Focus Pixels <br/>Live Photos with stabilization <br/>Wide color capture for photos and Live Photos <br/>Improved local tone mapping <br/>Exposure control <br/>Noise reduction <br/>Smart HDR for photos <br/>Auto image stabilization <br/>Burst mode <br/>Timer mode <br/>Photo geotagging <br/>Image formats captured: HEIF and JPEG",
+          "Video": "4K video recording at 30 fps or 60 fps <br/>1080p HD video recording at 30 fps or 60 fps <br/>720p HD video recording at 30 fps <br/>Quad-LED True Tone flash <br/>Slo‑mo video support for 1080p at 240 fps <br/>Time‑lapse video with stabilization <br/>Cinematic video stabilization (1080p and 720p) <br/>Continuous autofocus video <br/>Noise reduction <br/>Playback zoom <br/>Video geotagging <br/>Video formats captured: HEVC and H.264",
+          "Battery": "Built-in 29.37-watt-hour rechargeable lithium-polymer battery <br/>Up to 10 hours of surfing the web on Wi-Fi, watching video, or listening to music <br/>Charging via power adapter or USB-C to computer system",
+          "Sensors": "Face ID <br/>Three-axis gyro <br/>Accelerometer <br/>Barometer <br/>Ambient light sensor"
+        },
+        "images": ["/ipad-pro-spacegray.png", "/ipad-pro-silver.png"],
+        "variants": {
+          "10049": {
+            "id": 10049,
+            "name": "Ipad Pro",
+            "color": "Space Gray",
+            "capacity": "64",
+            "price": "799",
+            "image": "/ipad-pro-spacegray.png"
+          },
+          "10050": {
+            "id": 10050,
+            "name": "Ipad Pro",
+            "color": "Silver",
+            "capacity": "64",
+            "price": "799",
+            "image": "/ipad-pro-silver.png"
+          },
+          "10051": {
+            "id": 10051,
+            "name": "Ipad Pro",
+            "color": "Space Gray",
+            "capacity": "256",
+            "price": "949",
+            "image": "/ipad-pro-spacegray.png"
+          },
+          "10052": {
+            "id": 10052,
+            "name": "Ipad Pro",
+            "color": "Silver",
+            "capacity": "256",
+            "price": "949",
+            "image": "/ipad-pro-silver.png"
+          },
+          "10053": {
+            "id": 10053,
+            "name": "Ipad Pro",
+            "color": "Space Gray",
+            "capacity": "512",
+            "price": "1149",
+            "image": "/ipad-pro-spacegray.png"
+          },
+          "10054": {
+            "id": 10054,
+            "name": "Ipad Pro",
+            "color": "Silver",
+            "capacity": "512",
+            "price": "1149",
+            "image": "/ipad-pro-silver.png"
+          }
+        }
+      },
+      "ipad-air": {
+        "name": "Ipad Air",
+        "group": "ipad",
+        "handle": "ipad-air",
+        "price": "499",
+        "colors": ["Space Gray", "Silver", "Gold"],
+        "capacity": ["64", "256"],
+        "description": {
+          "Display": "Retina display <br/>10.5-inch (diagonal) LED-backlit Multi-Touch display <br/>2224-by-1668 resolution at 264 pixels per inch (ppi) <br/>Wide color display (P3) <br/>True Tone display <br/>Fingerprint-resistant oleophobic coating <br/>Fully laminated display <br/>Antireflective coating <br/>1.8% reflectivity <br/>500 nits brightness <br/>Supports Apple Pencil",
+          "Camera": "8-megapixel camera <br/>ƒ/2.4 aperture <br/>Five-element lens <br/>Hybrid IR ﬁlter <br/>Backside illumination <br/>Live Photos <br/>Wide color capture for photos and Live Photos <br/>Autofocus <br/>Panorama (up to 43 megapixels) <br/>HDR for photos <br/>Exposure control <br/>Burst mode <br/>Tap to focus <br/>Timer mode <br/>Auto image stabilization <br/>Photo geotagging",
+          "Video": "1080p HD video recording <br/>Slo‑mo (240 fps) <br/>Time‑lapse video with stabilization <br/>Video image stabilization <br/>3x video zoom <br/>Video geotagging",
+          "Battery": "Built‐in 30.2‐watt‐hour rechargeable lithium‑polymer battery <br/>Up to 10 hours of surfing the web on Wi‐Fi, watching video, or listening to music <br/>Charging via power adapter or USB to computer system",
+          "Sensors": "Touch ID <br/>Three‐axis gyro <br/>Accelerometer <br/>Barometer <br/>Ambient light sensor"
+        },
+        "images": [
+          "/ipad-air-spacegray.png",
+          "/ipad-air-silver.png",
+          "/ipad-air-gold.png"
+        ],
+        "variants": {
+          "10055": {
+            "id": 10055,
+            "name": "Ipad Air",
+            "color": "Space Gray",
+            "capacity": "64",
+            "price": "499",
+            "image": "/ipad-air-spacegray.png"
+          },
+          "10056": {
+            "id": 10056,
+            "name": "Ipad Air",
+            "color": "Silver",
+            "capacity": "64",
+            "price": "499",
+            "image": "/ipad-air-silver.png"
+          },
+          "10057": {
+            "id": 10057,
+            "name": "Ipad Air",
+            "color": "Gold",
+            "capacity": "64",
+            "price": "499",
+            "image": "/ipad-air-gold.png"
+          },
+          "10058": {
+            "id": 10058,
+            "name": "Ipad Air",
+            "color": "Space Gray",
+            "capacity": "256",
+            "price": "649",
+            "image": "/ipad-air-spacegray.png"
+          },
+          "10059": {
+            "id": 10059,
+            "name": "Ipad Air",
+            "color": "Silver",
+            "capacity": "256",
+            "price": "649",
+            "image": "/ipad-air-silver.png"
+          },
+          "10060": {
+            "id": 10060,
+            "name": "Ipad Air",
+            "color": "Gold",
+            "capacity": "256",
+            "price": "649",
+            "image": "/ipad-air-gold.png"
+          }
+        }
+      },
+      "ipad": {
+        "name": "Ipad",
+        "group": "ipad",
+        "handle": "ipad",
+        "price": "329",
+        "colors": ["Space Gray", "Silver", "Gold"],
+        "capacity": ["32", "128"],
+        "description": {
+          "Display": "Retina display <br/>10.2-inch (diagonal) LED-backlit Multi-Touch display with IPS technology <br/>2160-by-1620-pixel resolution at 264 pixels per inch (ppi) <br/>500 nits brightness <br/>Fingerprint-resistant oleophobic coating <br/>Supports Apple Pencil (1st generation)",
+          "Camera": "8-megapixel camera <br/>ƒ/2.4 aperture <br/>Five-element lens <br/>Hybrid IR filter <br/>Backside illumination <br/>Live Photos <br/>Autofocus <br/>Panorama (up to 43 megapixels) <br/>HDR for photos <br/>Exposure control <br/>Burst mode <br/>Tap to focus <br/>Timer mode <br/>Auto image stabilization <br/>Body and face detection <br/>Photo geotagging",
+          "Video": "1080p HD video recording at 30 fps <br/>Slo‑mo video support for 720p at 120 fps <br/>Time‑lapse video with stabilization <br/>Video image stabilization <br/>Body and face detection <br/>3x video zoom <br/>Video geotagging",
+          "Battery": "Built‐in 32.4‐watt‐hour rechargeable lithium‑polymer battery <br/>Up to 10 hours of surfing the web on Wi-Fi, watching video, or listening to music <br/>Charging via power adapter or USB to computer system <br/>Up to 9 hours of surfing the web using cellular data network",
+          "Sensors": "Touch ID <br/>Three‐axis gyro <br/>Accelerometer <br/>Barometer <br/>Ambient light sensor"
+        },
+        "images": ["/ipad-space.png", "/ipad-silver.png", "/ipad-gold.png"],
+        "variants": {
+          "10061": {
+            "id": 10061,
+            "name": "Ipad",
+            "color": "Space Gray",
+            "capacity": "32",
+            "price": "329",
+            "image": "/ipad-space.png"
+          },
+          "10062": {
+            "id": 10062,
+            "name": "Ipad",
+            "color": "Silver",
+            "capacity": "32",
+            "price": "329",
+            "image": "/ipad-silver.png"
+          },
+          "10063": {
+            "id": 10063,
+            "name": "Ipad",
+            "color": "Gold",
+            "capacity": "32",
+            "price": "329",
+            "image": "/ipad-gold.png"
+          },
+          "10064": {
+            "id": 10064,
+            "name": "Ipad",
+            "color": "Space Gray",
+            "capacity": "128",
+            "price": "429",
+            "image": "/ipad-space.png"
+          },
+          "10065": {
+            "id": 10065,
+            "name": "Ipad",
+            "color": "Silver",
+            "capacity": "128",
+            "price": "429",
+            "image": "/ipad-silver.png"
+          },
+          "10066": {
+            "id": 10066,
+            "name": "Ipad",
+            "color": "Gold",
+            "capacity": "128",
+            "price": "429",
+            "image": "/ipad-gold.png"
+          }
+        }
+      },
+      "ipad-mini": {
+        "name": "Ipad Mini",
+        "group": "ipad",
+        "handle": "ipad-mini",
+        "price": "399",
+        "colors": ["Space Gray", "Silver", "Gold"],
+        "capacity": ["64", "256"],
+        "description": {
+          "Display": "Retina display <br/>7.9-inch (diagonal) LED-backlit Multi-Touch display <br/>2048-by-1536 resolution at 326 pixels per inch (ppi) <br/>Wide color display (P3) <br/>True Tone display <br/>Fingerprint-resistant oleophobic coating <br/>Fully laminated display <br/>Antireflective coating <br/>1.8% reflectivity <br/>500 nits brightness <br/>Supports Apple Pencil",
+          "Camera": "8-megapixel camera <br/>ƒ/2.4 aperture <br/>Five-element lens <br/>Hybrid IR filter <br/>Backside illumination <br/>Live Photos <br/>Wide color capture for photos and Live Photos <br/>Autofocus <br/>Panorama (up to 43 megapixels) <br/>HDR for photos <br/>Exposure control <br/>Burst mode <br/>Tap to focus <br/>Timer mode <br/>Auto image stabilization <br/>Photo geotagging",
+          "Video": "1080p HD video recording <br/>Slo‑mo (240 fps) <br/>Time‑lapse video with stabilization <br/>Video image stabilization <br/>3x video zoom <br/>Video geotagging",
+          "Battery": "Built-in 19.1-watt-hour rechargeable lithium-polymer battery <br/>Up to 10 hours of surﬁng the web on Wi‑Fi, watching video, or listening to music <br/>Charging via power adapter or USB to computer system <br/>Up to 9 hours of surﬁng the web using cellular data network",
+          "Sensors": "Touch ID <br/>Three-axis gyro <br/>Accelerometer <br/>Barometer <br/>Ambient light sensor"
+        },
+        "images": [
+          "/ipad-mini-spacegray.png",
+          "/ipad-mini-silver.png",
+          "/ipad-mini-gold.png"
+        ],
+        "variants": {
+          "10067": {
+            "id": 10067,
+            "name": "Ipad Mini",
+            "color": "Space Gray",
+            "capacity": "64",
+            "price": "399",
+            "image": "/ipad-mini-spacegray.png"
+          },
+          "10068": {
+            "id": 10068,
+            "name": "Ipad Mini",
+            "color": "Silver",
+            "capacity": "64",
+            "price": "399",
+            "image": "/ipad-mini-silver.png"
+          },
+          "10069": {
+            "id": 10069,
+            "name": "Ipad Mini",
+            "color": "Gold",
+            "capacity": "64",
+            "price": "399",
+            "image": "/ipad-mini-gold.png"
+          },
+          "10070": {
+            "id": 10070,
+            "name": "Ipad Mini",
+            "color": "Space Gray",
+            "capacity": "256",
+            "price": "549",
+            "image": "/ipad-mini-spacegray.png"
+          },
+          "10071": {
+            "id": 10071,
+            "name": "Ipad Mini",
+            "color": "Silver",
+            "capacity": "256",
+            "price": "549",
+            "image": "/ipad-mini-silver.png"
+          },
+          "10072": {
+            "id": 10073,
+            "name": "Ipad Mini",
+            "color": "Gold",
+            "capacity": "256",
+            "price": "549",
+            "image": "/ipad-mini-gold.png"
+          }
+        }
+      }
+    }
   },
   "macbook": {
     "name": "Macbook",
@@ -903,5 +1171,197 @@
     "capacity": "128",
     "price": "499",
     "image": "/iphone8-gold.png"
+  },
+  "10049": {
+    "id": 10049,
+    "name": "Ipad Pro",
+    "color": "Space Gray",
+    "capacity": "64",
+    "price": "799",
+    "image": "/ipad-pro-spacegray.png"
+  },
+  "10050": {
+    "id": 10050,
+    "name": "Ipad Pro",
+    "color": "Silver",
+    "capacity": "64",
+    "price": "799",
+    "image": "/ipad-pro-silver.png"
+  },
+  "10051": {
+    "id": 10051,
+    "name": "Ipad Pro",
+    "color": "Space Gray",
+    "capacity": "256",
+    "price": "949",
+    "image": "/ipad-pro-spacegray.png"
+  },
+  "10052": {
+    "id": 10052,
+    "name": "Ipad Pro",
+    "color": "Silver",
+    "capacity": "256",
+    "price": "949",
+    "image": "/ipad-pro-silver.png"
+  },
+  "10053": {
+    "id": 10053,
+    "name": "Ipad Pro",
+    "color": "Space Gray",
+    "capacity": "512",
+    "price": "1149",
+    "image": "/ipad-pro-spacegray.png"
+  },
+  "10054": {
+    "id": 10054,
+    "name": "Ipad Pro",
+    "color": "Silver",
+    "capacity": "512",
+    "price": "1149",
+    "image": "/ipad-pro-silver.png"
+  },
+  "10055": {
+    "id": 10055,
+    "name": "Ipad Air",
+    "color": "Space Gray",
+    "capacity": "64",
+    "price": "499",
+    "image": "/ipad-air-spacegray.png"
+  },
+  "10056": {
+    "id": 10056,
+    "name": "Ipad Air",
+    "color": "Silver",
+    "capacity": "64",
+    "price": "499",
+    "image": "/ipad-air-silver.png"
+  },
+  "10057": {
+    "id": 10057,
+    "name": "Ipad Air",
+    "color": "Gold",
+    "capacity": "64",
+    "price": "499",
+    "image": "/ipad-air-gold.png"
+  },
+  "10058": {
+    "id": 10058,
+    "name": "Ipad Air",
+    "color": "Space Gray",
+    "capacity": "256",
+    "price": "649",
+    "image": "/ipad-air-spacegray.png"
+  },
+  "10059": {
+    "id": 10059,
+    "name": "Ipad Air",
+    "color": "Silver",
+    "capacity": "256",
+    "price": "649",
+    "image": "/ipad-air-silver.png"
+  },
+  "10060": {
+    "id": 10060,
+    "name": "Ipad Air",
+    "color": "Gold",
+    "capacity": "256",
+    "price": "649",
+    "image": "/ipad-air-gold.png"
+  },
+  "10061": {
+    "id": 10061,
+    "name": "Ipad",
+    "color": "Space Gray",
+    "capacity": "32",
+    "price": "329",
+    "image": "/ipad-space.png"
+  },
+  "10062": {
+    "id": 10062,
+    "name": "Ipad",
+    "color": "Silver",
+    "capacity": "32",
+    "price": "329",
+    "image": "/ipad-silver.png"
+  },
+  "10063": {
+    "id": 10063,
+    "name": "Ipad",
+    "color": "Gold",
+    "capacity": "32",
+    "price": "329",
+    "image": "/ipad-gold.png"
+  },
+  "10064": {
+    "id": 10064,
+    "name": "Ipad",
+    "color": "Space Gray",
+    "capacity": "128",
+    "price": "429",
+    "image": "/ipad-space.png"
+  },
+  "10065": {
+    "id": 10065,
+    "name": "Ipad",
+    "color": "Silver",
+    "capacity": "128",
+    "price": "429",
+    "image": "/ipad-silver.png"
+  },
+  "10066": {
+    "id": 10066,
+    "name": "Ipad",
+    "color": "Gold",
+    "capacity": "128",
+    "price": "429",
+    "image": "/ipad-gold.png"
+  },
+  "10067": {
+    "id": 10067,
+    "name": "Ipad Mini",
+    "color": "Space Gray",
+    "capacity": "64",
+    "price": "399",
+    "image": "/ipad-mini-spacegray.png"
+  },
+  "10068": {
+    "id": 10068,
+    "name": "Ipad Mini",
+    "color": "Silver",
+    "capacity": "64",
+    "price": "399",
+    "image": "/ipad-mini-silver.png"
+  },
+  "10069": {
+    "id": 10069,
+    "name": "Ipad Mini",
+    "color": "Gold",
+    "capacity": "64",
+    "price": "399",
+    "image": "/ipad-mini-gold.png"
+  },
+  "10070": {
+    "id": 10070,
+    "name": "Ipad Mini",
+    "color": "Space Gray",
+    "capacity": "256",
+    "price": "549",
+    "image": "/ipad-mini-spacegray.png"
+  },
+  "10071": {
+    "id": 10071,
+    "name": "Ipad Mini",
+    "color": "Silver",
+    "capacity": "256",
+    "price": "549",
+    "image": "/ipad-mini-silver.png"
+  },
+  "10072": {
+    "id": 10073,
+    "name": "Ipad Mini",
+    "color": "Gold",
+    "capacity": "256",
+    "price": "549",
+    "image": "/ipad-mini-gold.png"
   }
 }
