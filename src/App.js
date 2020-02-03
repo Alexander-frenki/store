@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Content from "./components/Content";
 import "./assets/style/main.scss";
 import { useHistory } from "react-router-dom";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Router>
         <Header />
         <Content />
+        <Footer />
         <Scroll />
       </Router>
     </>

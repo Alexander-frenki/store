@@ -1,0 +1,32 @@
+.new_product {
+  h2 {
+    text-align: center;
+    font-size: 36px;
+    margin: 50px 0;
+  }
+  .item {
+    align-items: center;
+    margin-bottom: 30px;
+    &_image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: auto;
+        max-height: 300px;
+      }
+    }
+    &_info {
+      text-align: center;
+      > * {
+        margin: 20px 0;
+      }
+      p {
+        font-weight: 600;
+      }
+    }
+    &:nth-child(odd) {
+      flex-direction: row-reverse;
+    }
+  }
+}

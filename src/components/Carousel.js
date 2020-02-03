@@ -79,32 +79,34 @@ function Carousel({ data, settings }) {
 
   return (
     data && (
-      <div className="slider">
-        <div className="slider_body">
-          <div className="slider_content">
-            {data.map((item, index) => {
-              return <SlideItem key={index} item={item} />;
-            })}
+      <section className="grid_full_container">
+        <div className="slider">
+          <div className="slider_body">
+            <div className="slider_content">
+              {data.map((item, index) => {
+                return <SlideItem key={index} item={item} />;
+              })}
+            </div>
           </div>
+          {setup.nav && data.length > setup.slideToShow && (
+            <NavBtn
+              nextSlide={nextSlide}
+              prevSlide={prevSlide}
+              quantitySlide={data.length}
+              activeSlide={activeSlide}
+              slideToShow={setup.slideToShow}
+            />
+          )}
+          {setup.dots && (
+            <Dots
+              quantitySlide={data.length}
+              goToSlide={goToSlide}
+              activeSlide={activeSlide}
+              slideToShow={setup.slideToShow}
+            />
+          )}
         </div>
-        {setup.nav && data.length > setup.slideToShow && (
-          <NavBtn
-            nextSlide={nextSlide}
-            prevSlide={prevSlide}
-            quantitySlide={data.length}
-            activeSlide={activeSlide}
-            slideToShow={setup.slideToShow}
-          />
-        )}
-        {setup.dots && (
-          <Dots
-            quantitySlide={data.length}
-            goToSlide={goToSlide}
-            activeSlide={activeSlide}
-            slideToShow={setup.slideToShow}
-          />
-        )}
-      </div>
+      </section>
     )
   );
 }

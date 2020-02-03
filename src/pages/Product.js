@@ -71,6 +71,7 @@ function Product({ content, addToCart }) {
           <div className="grid_desktop_6 product_info">
             <form onSubmit={handleSubmit}>
               <h3>Information</h3>
+              <h4 className="product_price">{currentVariant.price}$</h4>
               <div className="product_colors product_single_colors">
                 {product.colors.map(color => (
                   <label key={color}>
@@ -163,7 +164,9 @@ function AnimateImage({ image, alt, isAnimate, setIsAnimate }) {
       transition: "all 0.5s",
     }));
     setTimeout(() => {
-      let cartRect = document.querySelector(".cart").getBoundingClientRect();
+      let cartRect = document
+        .querySelector(".cart svg")
+        .getBoundingClientRect();
       let imgRect = animImage.current.getBoundingClientRect();
       let topOffset =
         cartRect.top < 0
@@ -171,7 +174,9 @@ function AnimateImage({ image, alt, isAnimate, setIsAnimate }) {
           : cartRect.top + imgRect.top;
       setImageStyle(imageStyle => ({
         ...imageStyle,
-        transform: `translate3d(${cartRect.left - 100}px, ${-topOffset}px, 0)`,
+        transform: `translate3d(${cartRect.right -
+          imgRect.right +
+          cartRect.width}px, ${-topOffset}px, 0)`,
       }));
       setTimeout(() => {
         setImageStyle(imageStyle => ({
