@@ -768,7 +768,7 @@
             "image": "/ipad-mini-silver.png"
           },
           "10072": {
-            "id": 10073,
+            "id": 10072,
             "name": "Ipad Mini",
             "color": "Gold",
             "capacity": "256",
@@ -782,11 +782,140 @@
   "macbook": {
     "name": "Macbook",
     "image": "/macbook.jpg",
-    "products": [
-      { "name": "Macbook Air" },
-      { "name": "Macbook Pro 13" },
-      { "name": "Macbook Pro 16" }
-    ]
+    "products": {
+      "macbook-pro-13": {
+        "name": "Macbook Pro 13",
+        "group": "macbook",
+        "handle": "macbook-pro-13",
+        "price": "1299",
+        "colors": ["Space Gray", "Silver"],
+        "capacity": ["128", "256", "512"],
+        "description": {
+          "Display": "Retina display <br/>13.3‑inch (diagonal) LED-backlit display with IPS technology; 2560‑by‑1600 native resolution at 227 pixels per inch with support for millions of colors <br/>Supported scaled resolutions: <br/>1680 by 1050 <br/>1440 by 900 <br/>1024 by 640 <br/>500 nits brightness <br/>Wide color (P3) <br/>True Tone technology",
+          "Battery": "Up to 10 hours wireless web <br/>Up to 10 hours iTunes movie playback <br/>Up to 30 days of standby time <br/>Built‑in 58.2‑watt‑hour lithium‑polymer battery <br/>61W USB‑C Power Adapter",
+          "Size": "Height: 0.59 inch (1.49 cm) <br/>Width: 11.97 inches (30.41 cm) <br/>Depth: 8.36 inches (21.24 cm) <br/>Weight: 3.02 pounds (1.37 kg)",
+          "Processor": "1.4GHz quad‑core Intel Core i5, Turbo Boost up to 3.9GHz, with 128MB of eDRAM",
+          "Memory": "8GB of 2133MHz LPDDR3 onboard memory"
+        },
+        "images": ["/mbp13-space.png", "/mbp13-silver.png"],
+        "variants": {
+          "10079": {
+            "id": 10079,
+            "name": "Macbook Pro 13",
+            "color": "Space Gray",
+            "capacity": "128",
+            "price": "1299",
+            "image": "/mbp13-space.png"
+          },
+          "10080": {
+            "id": 10080,
+            "name": "Macbook Pro 13",
+            "color": "Silver",
+            "capacity": "128",
+            "price": "1299",
+            "image": "/mbp13-silver.png"
+          },
+          "10081": {
+            "id": 10081,
+            "name": "Macbook Pro 13",
+            "color": "Space Gray",
+            "capacity": "256",
+            "price": "1499",
+            "image": "/mbp13-space.png"
+          },
+          "10082": {
+            "id": 10082,
+            "name": "Macbook Pro 13",
+            "color": "Silver",
+            "capacity": "256",
+            "price": "1499",
+            "image": "/mbp13-silver.png"
+          },
+          "10083": {
+            "id": 10083,
+            "name": "Macbook Pro 13",
+            "color": "Space Gray",
+            "capacity": "512",
+            "price": "1699",
+            "image": "/mbp13-space.png"
+          },
+          "10084": {
+            "id": 10084,
+            "name": "Macbook Pro 13",
+            "color": "Silver",
+            "capacity": "512",
+            "price": "1699",
+            "image": "/mbp13-silver.png"
+          }
+        }
+      },
+      "macbook-pro-16": {
+        "name": "Macbook Pro 16",
+        "group": "macbook",
+        "handle": "macbook-pro-16",
+        "price": "2399",
+        "colors": ["Space Gray", "Silver"],
+        "capacity": ["512", "1024", "2048"],
+        "description": {
+          "Display": "16‑inch (diagonal) LED‑backlit display with IPS technology; 3072‑by‑1920 native resolution at 226 pixels per inch with support for millions of colors <br/>Supported scaled resolutions: <br/>2048 x 1280 <br/>1792 x 1120 <br/>1344 x 840 <br/>1152 x 720 <br/>500 nits brightness <br/>Wide color (P3) <br/>True Tone technology <br/>Refresh rates: 47.95Hz, 48.00Hz, 50.00Hz, 59.94Hz, 60.00Hz",
+          "Battery": "Up to 11 hours wireless web <br/>Up to 11 hours Apple TV app movie playback <br/>Up to 30 days of standby time <br/>Built‑in 100‑watt‑hour lithium‑polymer battery <br/>96W USB‑C Power Adapter",
+          "Size": "Height: 0.64 inch (1.62 cm) <br/>Width: 14.09 inches (35.79 cm) <br/>Depth: 9.68 inches (24.59 cm) <br/>Weight: 4.3 pounds (2.0 kg)",
+          "Processor": "2.6GHz 6‑core Intel Core i7, Turbo Boost up to 4.5GHz, with 12MB shared L3 cache",
+          "Memory": "16GB of 2666MHz DDR4 onboard memory"
+        },
+        "images": ["/mbp-16-space.png", "/mbp-16-silver.png"],
+        "variants": {
+          "10085": {
+            "id": 10085,
+            "name": "Macbook Pro 16",
+            "color": "Space Gray",
+            "capacity": "512",
+            "price": "2399",
+            "image": "/mbp-16-spacegray.png"
+          },
+          "10086": {
+            "id": 10086,
+            "name": "Macbook Pro 16",
+            "color": "Silver",
+            "capacity": "512",
+            "price": "2399",
+            "image": "/mbp-16-silver.png"
+          },
+          "10087": {
+            "id": 10087,
+            "name": "Macbook Pro 16",
+            "color": "Space Gray",
+            "capacity": "1024",
+            "price": "2599",
+            "image": "/mbp-16-spacegray.png"
+          },
+          "10088": {
+            "id": 10088,
+            "name": "Macbook Pro 16",
+            "color": "Silver",
+            "capacity": "1024",
+            "price": "2599",
+            "image": "/mbp-16-silver.png"
+          },
+          "10089": {
+            "id": 10089,
+            "name": "Macbook Pro 16",
+            "color": "Space Gray",
+            "capacity": "2048",
+            "price": "2799",
+            "image": "/mbp-16-spacegray.png"
+          },
+          "10090": {
+            "id": 10090,
+            "name": "Macbook Pro 16",
+            "color": "Silver",
+            "capacity": "2048",
+            "price": "2799",
+            "image": "/mbp-16-silver.png"
+          }
+        }
+      }
+    }
   },
   "10001": {
     "id": 10001,
@@ -1363,5 +1492,101 @@
     "capacity": "256",
     "price": "549",
     "image": "/ipad-mini-gold.png"
+  },
+  "10079": {
+    "id": 10079,
+    "name": "Macbook Pro 13",
+    "color": "Space Gray",
+    "capacity": "128",
+    "price": "1299",
+    "image": "/mbp13-space.png"
+  },
+  "10080": {
+    "id": 10080,
+    "name": "Macbook Pro 13",
+    "color": "Silver",
+    "capacity": "128",
+    "price": "1299",
+    "image": "/mbp13-silver.png"
+  },
+  "10081": {
+    "id": 10081,
+    "name": "Macbook Pro 13",
+    "color": "Space Gray",
+    "capacity": "256",
+    "price": "1499",
+    "image": "/mbp13-space.png"
+  },
+  "10082": {
+    "id": 10082,
+    "name": "Macbook Pro 13",
+    "color": "Silver",
+    "capacity": "256",
+    "price": "1499",
+    "image": "/mbp13-silver.png"
+  },
+  "10083": {
+    "id": 10083,
+    "name": "Macbook Pro 13",
+    "color": "Space Gray",
+    "capacity": "512",
+    "price": "1699",
+    "image": "/mbp13-space.png"
+  },
+  "10084": {
+    "id": 10084,
+    "name": "Macbook Pro 13",
+    "color": "Silver",
+    "capacity": "512",
+    "price": "1699",
+    "image": "/mbp13-silver.png"
+  },
+  "10085": {
+    "id": 10085,
+    "name": "Macbook Pro 16",
+    "color": "Space Gray",
+    "capacity": "512",
+    "price": "2399",
+    "image": "/mbp-16-spacegray.png"
+  },
+  "10086": {
+    "id": 10086,
+    "name": "Macbook Pro 16",
+    "color": "Silver",
+    "capacity": "512",
+    "price": "2399",
+    "image": "/mbp-16-silver.png"
+  },
+  "10087": {
+    "id": 10087,
+    "name": "Macbook Pro 16",
+    "color": "Space Gray",
+    "capacity": "1024",
+    "price": "2599",
+    "image": "/mbp-16-spacegray.png"
+  },
+  "10088": {
+    "id": 10088,
+    "name": "Macbook Pro 16",
+    "color": "Silver",
+    "capacity": "1024",
+    "price": "2599",
+    "image": "/mbp-16-silver.png"
+  },
+  "10089": {
+    "id": 10089,
+    "name": "Macbook Pro 16",
+    "color": "Space Gray",
+    "capacity": "2048",
+    "price": "2799",
+    "image": "/mbp-16-spacegray.png"
+  },
+  "10090": {
+    "id": 10090,
+    "name": "Macbook Pro 16",
+    "color": "Silver",
+    "capacity": "2048",
+    "price": "2799",
+    "image": "/mbp-16-silver.png"
   }
 }
