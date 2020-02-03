@@ -32,10 +32,10 @@ function ProductItem({ content, item }) {
   let firstVariant = getFirstProperty(firstProduct.variants);
   return (
     <div className="item grid_row">
-      <div className="item_image grid_desktop_6">
+      <div className="item_image grid_desktop_6 grid_tablet_12">
         <img src={firstVariant.image} alt={firstVariant.name} />
       </div>
-      <div className="item_info grid_desktop_6">
+      <div className="item_info grid_desktop_6 grid_tablet_12">
         <h3>{firstVariant.name}</h3>
         <p>From: {firstVariant.price}$</p>
         <Link

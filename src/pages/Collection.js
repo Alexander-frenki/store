@@ -22,7 +22,7 @@ function Collection({ content }) {
               {Object.keys(collection.products).map(product => {
                 return (
                   <div
-                    className="grid_desktop_6"
+                    className="grid_desktop_6 grid_tablet_12"
                     key={collection.products[product].name}
                   >
                     <ProductSingle product={collection.products[product]} />

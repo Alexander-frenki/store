@@ -3,6 +3,9 @@ header {
   height: 40px;
   background-color: #000;
   color: #fff;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
   nav {
     ul {
       display: flex;
@@ -23,5 +26,88 @@ header {
   }
   .grid_row {
     align-items: center;
+  }
+  .burger {
+    display: none;
+  }
+  @media screen and (max-width: 991px) {
+    .logo {
+      display: none;
+    }
+    .burger {
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      height: 40px;
+      justify-content: space-between;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      span {
+        width: 30px;
+        height: 2px;
+        display: block;
+        background-color: #fff;
+        position: relative;
+        transition: all 0.35s;
+      }
+      &:hover{
+        span:nth-child(2) {
+          transform: translateX(-200%);
+        }
+        span:first-child {
+          transform: rotate(45deg);
+          position: relative;
+          top: 9px;
+        }
+        span:last-child {
+          transform: rotate(135deg);
+          position: relative;
+          top: -9px;
+        }
+      }
+      &.active {
+        span:nth-child(2) {
+          transform: translateX(-200%);
+        }
+        span:first-child {
+          transform: rotate(45deg);
+          position: relative;
+          top: 9px;
+        }
+        span:last-child {
+          transform: rotate(135deg);
+          position: relative;
+          top: -9px;
+        }
+      }
+    }
+    .navbar {
+      position: fixed;
+      transform: translateX(-100%);
+      transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+      height: 100vh;
+      top: 39px;
+      max-width: 300px;
+      width: 100%;
+      background-color: #000;
+      padding-top: 30px;
+      nav {
+        height: inherit;
+      }
+      ul {
+        height: inherit;
+        flex-direction: column;
+        justify-content: flex-start;
+        li {
+          margin-bottom: 15px;
+          font-size: 20px;
+        }
+      }
+
+      &.active {
+        transform: translateX(0);
+      }
+    }
+
   }
 }

@@ -59,7 +59,7 @@ function Product({ content, addToCart }) {
           </div>
         </div>
         <div className="grid_row line">
-          <div className="grid_desktop_6 product_images">
+          <div className="grid_desktop_6 product_images grid_tablet_12">
             <img src={currentVariant.image} alt={currentVariant.name} />
             <AnimateImage
               image={currentVariant.image}
@@ -68,7 +68,7 @@ function Product({ content, addToCart }) {
               setIsAnimate={setIsAnimate}
             />
           </div>
-          <div className="grid_desktop_6 product_info">
+          <div className="grid_desktop_6 product_info grid_tablet_12">
             <form onSubmit={handleSubmit}>
               <h3>Information</h3>
               <h4 className="product_price">{currentVariant.price}$</h4>
@@ -128,7 +128,7 @@ function Product({ content, addToCart }) {
             {Object.keys(product.description).map(item => {
               return (
                 <div
-                  className="product_description_item grid_desktop_6"
+                  className="product_description_item grid_desktop_6 grid_tablet_12"
                   key={item}
                 >
                   <h5>{item}</h5>
@@ -151,6 +151,7 @@ let initialStateImage = {
   width: "100%",
   transform: "translate3d(0,0,0)",
   opacity: 1,
+  zIndex: 0
 };
 
 function AnimateImage({ image, alt, isAnimate, setIsAnimate }) {
@@ -161,7 +162,7 @@ function AnimateImage({ image, alt, isAnimate, setIsAnimate }) {
     setImageStyle(imageStyle => ({
       ...imageStyle,
       width: "50px",
-      transition: "all 0.5s",
+      transition: "all 0.5s"
     }));
     setTimeout(() => {
       let cartRect = document
@@ -177,6 +178,7 @@ function AnimateImage({ image, alt, isAnimate, setIsAnimate }) {
         transform: `translate3d(${cartRect.right -
           imgRect.right +
           cartRect.width}px, ${-topOffset}px, 0)`,
+          zIndex: 2
       }));
       setTimeout(() => {
         setImageStyle(imageStyle => ({

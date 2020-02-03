@@ -7,6 +7,7 @@ import { bindActionCreators } from "redux";
 import * as actions from "../actions";
 import CartModal from "../components/CartModal";
 import FinishModal from "../components/FinishModal";
+import { Link } from "react-router-dom";
 
 function Cart({
   content,
@@ -42,6 +43,25 @@ function Cart({
     setTotalPrice(price);
   }, [cart, itemToShow, content]);
 
+  if (cart.length < 1) {
+    return (
+      <section className="cart">
+        <div className="grid_container">
+          <div className="grid_row">
+            <div className="grid_desktop_12 page_title">
+              <h1>Your cart is empty...</h1>
+            </div>
+            <div className="grid_desktop_12">
+              <Link to="/">
+                <button className="btn">CONTINUE SHOPPING</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  }
+
   return (
     <>
       <section className="cart">
@@ -50,7 +70,7 @@ function Cart({
             <div className="grid_desktop_12 page_title">
               <h1>Shopping Cart</h1>
             </div>
-            <div className="grid_desktop_7">
+            <div className="grid_desktop_7 grid_tablet_12">
               {Object.keys(itemToShow).map(item => {
                 return (
                   <div className="cart_item" key={item}>
@@ -103,7 +123,7 @@ function Cart({
                 );
               })}
             </div>
-            <div className="grid_desktop_5 ">
+            <div className="grid_desktop_5 grid_tablet_12">
               <div className="cart_information">
                 <p className="cart_information_title">Information:</p>
                 <p className="cart_information_total">

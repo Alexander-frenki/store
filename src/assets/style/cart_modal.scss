@@ -88,6 +88,9 @@
       button {
         margin-left: auto;
         z-index: 1;
+        @media screen and (max-width: 991px) {
+          margin-right: auto;
+        }
       }
     }
   }
